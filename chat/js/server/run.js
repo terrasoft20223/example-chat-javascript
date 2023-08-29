@@ -7,6 +7,7 @@ WebDevServer.Server.CreateNew()
 	// Required.
 	.SetDocumentRoot(__dirname + '/../../')
 	// Optional, 8000 by default.
+	.SetPort(80)
 	//.SetPort(8000)
 	// Optional, '127.0.0.1' by default.
 	//.SetHostname('127.0.0.1')
